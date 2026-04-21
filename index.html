@@ -1,30 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mechanic Barabarani</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanic Barabarani</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 p-4">
-   <h1 class="text-xl font-bold text-center mb-2">Mechanic Barabarani - Garaji mahali popote</h1> 
-   <p class="text-sm text-center mb-4">Tafuta garaji Karibu na mji wako</p>
-   
-   <!--Search-->
-   <input type="text" id="searchInput" placeholder="Tafuta garaji hapa (Nairobi, Mombasa, Kisumu)" class="w-full p-2 border rounded mb-2"/>
-   
-   <!--Buttons-->
-   <div class="flex gap-2 mb-4">
-<button id="useLocation" class="text-xs px-3 py-1 bg-blue-600 text-white rounded">HAZARDI (Emergency)</button>
-<button></button>
-   </div>
+<body class="bg-gray-100 min-h-full flex flex-col">
 
-   <!--map-->
-   <div id="map" class="h-49 bg-white rounded shadow mb-4 flex items-center justify-center text-sm text-gray-500">Weka Mji ili Kuona Map Ya Karibu</div>
-   
-   <!--mechanics list-->
-   <div id="map" class="space-y-3"></div>
-   <script src="./script.js"></script>
+  <!-- Nav -->
+  <nav class="bg-blue-700 text-white p-3 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-lg font-bold">Mechanic Barabarani</h1>
+      <div class="space-x-6 hidden md:flex">
+        <a href="#home" class="hover:text-yellow-300">Home</a>
+        <a href="#about" class="hover:text-yellow-300">About</a>
+        <a href="#register" class="hover:text-yellow-300">Register Mechanic</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mx-auto flex-1 p-4 space-y-6">
+
+    <!-- Hero -->
+    <div class="bg-white rounded-lg shadow p-4 text-center">
+      <h1 class="text-2xl font-bold mb-2">Mechanic Barabarani – Garaji mahali popote</h1>
+      <p class="text-sm">Tafuta garaji karibu na mji wako.</p>
+    </div>
+
+    <!-- Search & Buttons -->
+    <div class="bg-white rounded-lg shadow p-4 space-y-3">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Tafuta garaji hapa (Nairobi, Mombasa, Kisumu...)"
+        class="w-full p-2 border rounded"
+      />
+
+      <div class="flex flex-wrap gap-2">
+        <button id="useLocation" class="flex-1 min-w-40 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Use my location
+        </button>
+        <button id="emergencyBtn" class="flex-1 min-w-40 px-3 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+          HAZARDI (Emergency)
+        </button>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div id="map" class="bg-white rounded-lg shadow p-4 h-40 flex items-center justify-center text-sm text-gray-500">
+      Weka mji ili kuona map ya karibu
+    </div>
+
+    <!-- Mechanics list -->
+    <div id="mechanicsList" class="space-y-4"></div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-3 text-center text-sm">
+    <p>&copy; 2026 Mechanic Barabarani - Garaji mahali popote</p>
+    <p>JavaScript project 2026</p>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
