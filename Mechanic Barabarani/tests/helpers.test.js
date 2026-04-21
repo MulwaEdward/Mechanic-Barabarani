@@ -1,4 +1,5 @@
-// Simple test helpers
+// tests/helpers.test.js
+
 
 const mechanics = [
   { id: 1, name: "Nairobi Garage Motors", town: "Nairobi", available: true },
@@ -18,6 +19,7 @@ function filterMechanics(term, onlyAvailable = false) {
 function isValidPhone(phone) {
   return /^\+?254\d{9}$/.test(phone) || /^\+?0?7\d{8}$/.test(phone);
 }
+
 
 // Jest tests
 test("filterMechanics returns all when term is empty", () => {

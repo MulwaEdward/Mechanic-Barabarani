@@ -1,56 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Mechanic Barabarani</title>
-   <script src="https://cdn.tailwindcss.com"></script>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanic Barabarani</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 min-h-full flex-col">
-<!-- Nav -->
-<nav class="bg-blue-700 text-white p-3 shadow">
-   <div class="container mx-auto flex justify-between items-center">
+<body class="bg-gray-100 min-h-full flex flex-col">
+
+  <!-- Nav -->
+  <nav class="bg-blue-700 text-white p-3 shadow">
+    <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-lg font-bold">Mechanic Barabarani</h1>
       <div class="space-x-6 hidden md:flex">
         <a href="#home" class="hover:text-yellow-300">Home</a>
         <a href="#about" class="hover:text-yellow-300">About</a>
         <a href="#register" class="hover:text-yellow-300">Register Mechanic</a>
       </div>
-   </div>
-</nav>
-
-<main class="container mx-auto flex-1 p-4 space-y-6">
-<!---Hero-->
-  <section class="flex flex-col md:flex-row items-center gap-6 bg-white rounded-lg shadow p-5">
-    <div class="flex-1">
-      <h2 class="text-2xl font-bold mb-2">Mechanic Barabarani - Garages anywhere</h2>
-      <p class="text-sm text-gray-700 mb-4">Find nearby mechanics in Kenya by town or county and contact them quickly.</p>
     </div>
-  </section>
+  </nav>
 
-<!-- Search + Buttons -->
-<div class="bg-white rounded-lg shadow p-4 space-y-3">
-   <input type="text" id="searchInput" placeholder="Search garages (Nairobi, Mombasa, Kisumu...)" class="w-full p-2 border rounded"/>
+  <main class="container mx-auto flex-1 p-4 space-y-6">
 
-   <div class="flex flex-wrap gap-2">
-      <button id="useLocation" class="flex-1 min-w-48 px-4 py-2 bg-blue-600 text-white rounded">Use my location (map)</button>
-      <button id="emergrncyBtn" class="flex-1 min-w-48 px-4 py-2 bg-red-600 text-white rounded">Emergency (closest & available)</button>
-   </div>
-</div>
+    <!-- Hero -->
+    <section class="bg-white rounded-lg shadow p-4 text-center">
+      <h2 class="text-2xl font-bold mb-2">Mechanic Barabarani – Garages anywhere</h2>
+      <p class="text-sm">Find nearby mechanics in Kenya by town or county and contact them quickly.</p>
+    </section>
 
-<!---map area-->
- <div id="map" class="bg-white rounded-lg shadow p-4 h-48 flex items-center justify-center text-sm text-gray-500">Set a town to see nearby mechanics on the map</div>
+    <!-- Search + Buttons -->
+    <div class="bg-white rounded-lg shadow p-4 space-y-3">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search garages (Nairobi, Mombasa, Kisumu...)"
+        class="w-full p-2 border rounded"
+      />
 
- <!--mechanics list-->
-<div id="mechanicsList" class="space-x-4"></div>
-</main>
+      <div class="flex flex-wrap gap-2">
+        <button id="useLocation" class="flex-1 min-w-40 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Use my location
+        </button>
+        <button id="emergencyBtn" class="flex-1 min-w-40 px-3 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+          HAZARDI (Emergency)
+        </button>
+      </div>
+    </div>
 
-<!--footer-->
-<footer class="bg-gray-800 text-white p-4 text-center text-sm">
-  <p>&copy; 2026 Mechanic Barabarani - Garages anywhere. All rights reserved.</p>
-</footer>
+    <!-- Map area -->
+    <div id="map" class="bg-white rounded-lg shadow p-4 h-48 flex items-center justify-center text-sm text-gray-500">
+      Set a town to see nearby mechanics on the map
+    </div>
 
-<script src="./script.js"></script>
+    <!-- Mechanics list -->
+    <div id="mechanicsList" class="space-y-4"></div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-4 text-center text-sm">
+    <p>&copy; 2026 Mechanic Barabarani – Garages anywhere. All rights reserved.</p>
+    <p>Final JavaScript project by Edward Mulwa</p>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
