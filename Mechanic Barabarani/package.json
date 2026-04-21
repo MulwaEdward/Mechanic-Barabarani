@@ -1,0 +1,11 @@
+{
+  "name": "MechanicBarabarani",
+  "version": "1.0.0",
+  "description": "Mechanic Barabarani – JavaScript final project",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

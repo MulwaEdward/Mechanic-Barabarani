@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Nairobi Garage Motors",
+    "town": "Nairobi",
+    "phone": "0700123456",
+    "whatsApp": "0700123456",
+    "spec": "Brakes & Suspension",
+    "available": true,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Mombasa Quick Fix",
+    "town": "Mombasa",
+    "phone": "0710123456",
+    "whatsApp": "0710123456",
+    "spec": "Engine",
+    "available": true,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Kisumu Roadside",
+    "town": "Kisumu",
+    "phone": "0720123456",
+    "whatsApp": "0720123456",
+    "spec": "General",
+    "available": false,
+    "rating": 3
+  }
+]
