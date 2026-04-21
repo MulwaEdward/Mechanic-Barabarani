@@ -30,9 +30,22 @@
   </section>
 
 <!-- Search + Buttons -->
+<div class="bg-white rounded-lg shadow p-4 space-y-3">
+   <input type="text" id="searchInput" placeholder="Search garages (Nairobi, Mombasa, Kisumu...)" class="w-full p-2 border rounded"/>
 
+   <div class="flex flex-wrap gap-2">
+      <button id="useLocation" class="flex-1 min-w-48 px-4 py-2 bg-blue-600 text-white rounded">Use my location (map)</button>
+      <button id="emergrncyBtn" class="flex-1 min-w-48 px-4 py-2 bg-red-600 text-white rounded">Emergency (closest & available)</button>
+   </div>
+</div>
 
+<!---map area-->
+ <div id="map" class="bg-white rounded-lg shadow p-4 h-48 flex items-center justify-center text-sm text-gray-500">Set a town to see nearby mechanics on the map</div>
+
+ <!--mechanics list-->
+<div id="mechanicsList" class="space-x-4"></div>
 </main>
+
 
 </body>
 </html>
