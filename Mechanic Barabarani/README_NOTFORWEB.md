@@ -37,4 +37,4 @@ npm test
 ```
 
 Deployment
-- You can host this on GitHub Pages or Netlify (upload the folder and use `index.html` as home).
+- You can host this on GitHub Pages.
