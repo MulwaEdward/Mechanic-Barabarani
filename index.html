@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanic Barabarani – Garaji Mahali Popote</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style> .hero-img {background-image: url("https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/72d1aa18-c98d-47ef-a96b-37e4716e0825.png?AWSAccessKeyId=ASIA2F3EMEYE6XILAOJB&Signature=RSShYm0eCxMce4H99Dob3rNbQTQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEFwaCXVzLWVhc3QtMSJHMEUCIQDnZ7%2BNYTjy47vc%2F3azNOTxGb6aqd61dfmuysl7iaHc1gIgL1P8mnV5gTpcy9LE9ksSs4BB%2BKB8Z%2Fmg2JRoiTzbO%2Foq8wQIJRABGgw2OTk3NTMzMDk3MDUiDO%2FHGYp26DD574R6cyrQBO0d%2FP9OFUmuQEa626%2FEQqUy3wyGbS%2Bn1RyWvgK5z1Em%2BL4KVfdbQz2%2BThYXH3A0QQdfxThI6g3bY15iz9EaTY6baQxWRJtY38bkBRIX0JxHtUyrh6EHV8n50FBvnyRce%2FuY55nt9ivSimE2TX5OEzE1%2Fi34TxznUv6xzNnLsKmX8mH28QUJv3b4KxreCseUKCQeN2DzR%2B6ZdJ3LPLg8hGUeBgfgqKZSXxqr2nU3c0N7gNTvrzBLpCNW7inIkVU1bHD1iIKfPrBxWzKOgISTR4L6WYza39CRDZg8FWzsUFginr0Bwiz8Tx%2B04%2F7Q18iyKwI9VKnLi3SR%2FAksCL5I7tAHzG1WOwznix4p%2B70Hlhgpzs0BxrCxc%2BheuY3GXUGntDlcH2mVxqnpDbOBZ0qxDBqum5wASvyP0Hl2up7CVi345eWC6rbc2HhIbpIKHmGMnl0G70GcuUiLpgT1eTsNPmKsjeJtnRvOK5imn6w4a72SLd1M%2FcIx3xUkg142Cw%2F%2FYzxveOOpcH4LxdBqHAbzY4U1nqdRKVgVlJPuTTp7aokDeSngK4Evj8bOXKvUmmCDFxn6UefkaY6d4%2FJrBOsKABbqsru7by9Xm%2B2xJlGv4nXWojDIDjd2hf8vPPAmb26SLVevsBjDFom6Prz8uk8eO54gujDbE8ZQTvN0XhyNFGHPapPvDJksHC5QfeWw%2BW9Q6ZHDbs1qqWNAfSJaObV4EQZIHse7tMWsQRCf0MwHOHEizYY%2BdsNepL1Lc8G5XenRdq3AY9lTgsKS2SF3S%2Fh3Z%2Fcwha3SzwY6mAFGIiYysHaekF6kuE2KikB8b8AhmAU0YFieitqPyE%2B5gqxpWbZSh1FV7eQdNKzKcOjAnay4FlSjOPOZd0RCufVzHe8IXZnkC4ak%2BfMJdVEdb5RhrRK2hXdyUIEnCQqGben4LXyGlCB1Tge6qMynl7DNiY9Gs6OmH6BUolSR4R%2BuA5%2Fr1HnZWZnEb9fr16QlYNtKcpH3ZrSFnw%3D%3D&Expires=1777640536");background-size: cover;background-position: center;height: 280px;display: flex;align-items: center;justify-content: center;}</style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen bg-blue-900">
+  <!-- Header -->
+  <header class="bg-white shadow border-b">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-700">🔧 Mechanic Barabarani</h1>
+      <div class="space-x-4">
+        <button onclick="loadFavorites()" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">⭐ Favourites</button>
+        <button onclick="clearStorage()" class="bg-red-500 text-white px-3 py-1 rounded text-sm hover:bg-red-600">🗑️ Clear</button>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero section -->
+  <section class="hero-img">
+    <div class="bg-black bg-opacity-60 p-4 rounded text-center text-white max-w-sm">
+      <h2 class="text-xl font-bold">Umekwama Barabarani????</h2>
+      <p class="text-sm mt-1">Pata mechanics karibu kwa sekunde.</p>
+      <button onclick="emergencyMechanics()" class="mt-3 bg-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-red-600">🚨 Emergency (Use My Location)</button>
+    </div>
+  </section>
+  <!-- About Us -->
+  <section class="py-4 px-6 text-center bg-gray-100 text-lg text-gray-700">Mechanic Barabarani helps drivers in Nairobi, Mombasa, Kisumu, Nakuru, and Machakos find trusted, TVET‑trained mechanics quickly.</section>
+  <!-- search bar -->
+  <main class="container mx-auto px-6 py-8">
+    <!-- Swahili label -->
+    <div class="max-w-3xl mx-auto mb-8 text-center">
+      <h2 class="text-lg font-bold text-gray-800">Tafuta garaji hapa</h2>
+    </div>
+    <!-- Search Form -->
+    <div class="max-w-2xl mx-auto mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <input id="cityFilter" type="text" placeholder="City (Nairobi, Mombasa, Kisumu…)" class="p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"/>
+        <input id="serviceFilter" type="text" placeholder="Service (engine, brakes, etc…)" class="p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"/>
+      </div>
+      <div class="space-x-3">
+        <button onclick="searchGarages()" class="w-1/2 bg-green-500 text-white p-3 rounded font-semibold hover:bg-green-600">🔍 Tafuta</button>
+        <button onclick="showAllGarages()" class="w-1/2 bg-gray-500 text-white p-3 rounded font-semibold hover:bg-gray-600">📋 Watu Wote</button>
+      </div>
+    </div>
+    <!-- Map section -->
+    <section class="py-6 px-4 bg-white rounded-lg mb-8">
+      <div class="container mx-auto max-w-lg">
+        <h3 class="text-lg font-bold mb-3 text-gray-800">📍 Eneo / Map</h3>
+        <p class="text-sm text-gray-600 mb-3">Map (placeholder) in future, add Google Maps / Leaflet.</p>
+        <div id="map" class="h-48 bg-gray-200 rounded border border-gray-300 flex items-center justify-center text-gray-500 text-sm">Map to show mechanics nearby</div>
+      </div>
+    </section>
+    <!-- Sajili Mekani (mock admin) -->
+    <section class="py-6 px-4 bg-gray-50 rounded-lg mb-8">
+      <div class="container mx-auto max-w-lg">
+        <h3 class="text-lg font-bold mb-3 text-gray-800">Sajili Mekani</h3>
+        <p class="text-xs text-gray-600 mb-3">(Kwa ajili ya mock‑admin darasa.)</p>
+        <div class="space-y-3">
+          <input type="text" id="mechName" placeholder="Jina la Mechanic" class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"/>
+          <input type="tel" id="mechPhone" placeholder="Namba ya Simu (2547...)"class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"/>
+          <input type="text" id="mechCity" placeholder="City (e.g. Nairobi)" class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"/>
+          <textarea id="mechDetails" placeholder="Serikali, zoezi, TVET, n.k" rows="2" class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"></textarea>
+          <button onclick="sajiliMekani()"class="w-full bg-blue-500 text-white p-3 rounded font-semibold hover:bg-blue-600">📥 Sajili Dear mechanics</button>
+        </div>
+      </div>
+    </section>
+    <!-- Emergency / closest mechanics -->
+    <section id="emergencySection" class="py-4 px-6 bg-red-50 rounded-lg mb-8 hidden">
+      <div class="text-center text-red-800 mb-2">🚨 Mekani Mapema (Karibu Na Eneo Langu)</div>
+      <div id="emergencyList" class="grid grid-cols-1 gap-4"></div>
+    </section>
+    <!-- Garage list -->
+    <div id="garagesList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="text-center p-8 text-gray-500">Loading garages</div>
+    </div>
+    <!-- Contact Form (on landing page) -->
+    <div class="bg-white p-6 rounded-lg shadow mt-8 max-w-2xl mx-auto">
+      <h3 class="text-lg font-bold mb-3 text-gray-800">Contact Us</h3>
+      <p class="text-sm text-gray-600 mb-3">Send a message and we’ll help you choose a nearby garage.</p>
+
+      <form id="contactForm" class="space-y-3">
+        <input type="text" id="name" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"required/>
+        <input type="tel" id="phone" placeholder="Phone" class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500"required/>
+        <textarea id="message" placeholder="Vehicle issue" rows="3" class="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500" required></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded font-semibold hover:bg-blue-700">Send Request</button>
+      </form>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4 text-sm">
+    JavaScript project by Eddy • Mechanic Barabarani @2026
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
