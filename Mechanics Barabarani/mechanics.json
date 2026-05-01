@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Speedy Garage Nairobi",
+    "city": "Nairobi",
+    "services": ["engine", "brakes"],
+    "rating": 4.8,
+    "available": true,
+    "phone": "254700000001"
+  },
+  {
+    "id": 2,
+    "name": "Tusker Auto Works",
+    "city": "Nairobi",
+    "services": ["engine", "electrical"],
+    "rating": 4.5,
+    "available": true,
+    "phone": "254700000002"
+  },
+  {
+    "id": 3,
+    "name": "Jiwe Gear Garage",
+    "city": "Nairobi",
+    "services": ["suspension", "wheels"],
+    "rating": 4.3,
+    "available": true,
+    "phone": "254700000003"
+  },
+  {
+    "id": 4,
+    "name": "Coastal Auto Masters",
+    "city": "Mombasa",
+    "services": ["engine", "brakes"],
+    "rating": 4.7,
+    "available": true,
+    "phone": "254700000004"
+  },
+  {
+    "id": 5,
+    "name": "Ocean Fix Garage",
+    "city": "Mombasa",
+    "services": ["brakes", "electrical"],
+    "rating": 4.4,
+    "available": true,
+    "phone": "254700000005"
+  },
+  {
+    "id": 6,
+    "name": "Mombasa Engine Lab",
+    "city": "Mombasa",
+    "services": ["engine", "transmission"],
+    "rating": 4.6,
+    "available": true,
+    "phone": "254700000006"
+  },
+  {
+    "id": 7,
+    "name": "Lakeside Auto Repair",
+    "city": "Kisumu",
+    "services": ["engine", "brakes"],
+    "rating": 4.5,
+    "available": true,
+    "phone": "254700000007"
+  },
+  {
+    "id": 8,
+    "name": "Nzoia Garage",
+    "city": "Kisumu",
+    "services": ["suspension", "wheels"],
+    "rating": 4.2,
+    "available": true,
+    "phone": "254700000008"
+  },
+  {
+    "id": 9,
+    "name": "Victoria Mechanics",
+    "city": "Kisumu",
+    "services": ["engine", "electrical"],
+    "rating": 4.4,
+    "available": true,
+    "phone": "254700000009"
+  },
+  {
+    "id": 10,
+    "name": "Menengai Garage",
+    "city": "Nakuru",
+    "services": ["engine", "brakes"],
+    "rating": 4.6,
+    "available": true,
+    "phone": "254700000010"
+  },
+  {
+    "id": 11,
+    "name": "Nakuru Fix Masters",
+    "city": "Nakuru",
+    "services": ["suspension", "electrical"],
+    "rating": 4.3,
+    "available": true,
+    "phone": "254700000011"
+  },
+  {
+    "id": 12,
+    "name": "Rift Valley Car Care",
+    "city": "Nakuru",
+    "services": ["engine", "wheels"],
+    "rating": 4.5,
+    "available": true,
+    "phone": "254700000012"
+  },
+  {
+    "id": 13,
+    "name": "Machakos Garage Hub",
+    "city": "Machakos",
+    "services": ["engine", "brakes"],
+    "rating": 4.4,
+    "available": true,
+    "phone": "254700000013"
+  },
+  {
+    "id": 14,
+    "name": "Kioko Auto Repairs",
+    "city": "Machakos",
+    "services": ["suspension", "electrical"],
+    "rating": 4.1,
+    "available": true,
+    "phone": "254700000014"
+  },
+  {
+    "id": 15,
+    "name": "Kathiani Gear Garage",
+    "city": "Machakos",
+    "services": ["engine", "wheels"],
+    "rating": 4.3,
+    "available": true,
+    "phone": "254700000015"
+  },
+  {
+    "id": 16,
+    "name": "Nairobi Brake Masters",
+    "city": "Nairobi",
+    "services": ["brakes", "engine"],
+    "rating": 4.7,
+    "available": true,
+    "phone": "254700000016"
+  },
+  {
+    "id": 17,
+    "name": "Modern Auto Nairobi",
+    "city": "Nairobi",
+    "services": ["engine", "electrical"],
+    "rating": 4.6,
+    "available": true,
+    "phone": "254700000017"
+  },
+  {
+    "id": 18,
+    "name": "Mombasa Suspension Works",
+    "city": "Mombasa",
+    "services": ["suspension", "wheels"],
+    "rating": 4.5,
+    "available": true,
+    "phone": "254700000018"
+  },
+  {
+    "id": 19,
+    "name": "Kisumu Engine Centre",
+    "city": "Kisumu",
+    "services": ["engine", "transmission"],
+    "rating": 4.6,
+    "available": true,
+    "phone": "254700000019"
+  },
+  {
+    "id": 20,
+    "name": "Nakuru Brake Hub",
+    "city": "Nakuru",
+    "services": ["brakes", "electrical"],
+    "rating": 4.4,
+    "available": true,
+    "phone": "254700000020"
+  },
+  {
+    "id": 21,
+    "name": "Machakos Electric Garage",
+    "city": "Machakos",
+    "services": ["electrical"],
+    "rating": 4.2,
+    "available": true,
+    "phone": "254700000021"
+  },
+  {
+    "id": 22,
+    "name": "Nairobi Suspo Masters",
+    "city": "Nairobi",
+    "services": ["suspension"],
+    "rating": 4.3,
+    "available": true,
+    "phone": "254700000022"
+  },
+  {
+    "id": 23,
+    "name": "Mombasa Engine X",
+    "city": "Mombasa",
+    "services": ["engine", "brakes"],
+    "rating": 4.5,
+    "available": true,
+    "phone": "254700000023"
+  },
+  {
+    "id": 24,
+    "name": "Kisumu Wheel Fix",
+    "city": "Kisumu",
+    "services": ["wheels", "suspension"],
+    "rating": 4.1,
+    "available": true,
+    "phone": "254700000024"
+  },
+  {
+    "id": 25,
+    "name": "Nakuru Engine Pro",
+    "city": "Nakuru",
+    "services": ["engine", "electrical"],
+    "rating": 4.7,
+    "available": true,
+    "phone": "254700000025"
+  },
+  {
+    "id": 26,
+    "name": "Machakos Brake Fix",
+    "city": "Machakos",
+    "services": ["brakes"],
+    "rating": 4.0,
+    "available": true,
+    "phone": "254700000026"
+  },
+  {
+    "id": 27,
+    "name": "Nairobi Auto X",
+    "city": "Nairobi",
+    "services": ["engine", "brakes", "suspension"],
+    "rating": 4.8,
+    "available": true,
+    "phone": "254700000027"
+  },
+  {
+    "id": 28,
+    "name": "Mombasa Auto Hub",
+    "city": "Mombasa",
+    "services": ["engine", "electrical"],
+    "rating": 4.6,
+    "available": true,
+    "phone": "254700000028"
+  },
+  {
+    "id": 29,
+    "name": "Kisumu Gear Masters",
+    "city": "Kisumu",
+    "services": ["suspension", "wheels"],
+    "rating": 4.4,
+    "available": true,
+    "phone": "254700000029"
+  },
+  {
+    "id": 30,
+    "name": "Nakuru Gear Hub",
+    "city": "Nakuru",
+    "services": ["engine", "brakes"],
+    "rating": 4.5,
+    "available": true,
+    "phone": "254700000030"
+  }
+]
